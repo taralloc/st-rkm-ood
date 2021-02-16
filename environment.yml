@@ -1,0 +1,29 @@
+name: rkm_env
+channels:
+  - soumith
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1
+  - ca-certificates=2020.1.1=0
+  - certifi=2020.4.5.1
+  - libedit=3.1.20181209
+  - libffi=3.2.1
+  - libgcc-ng=9.1.0
+  - libstdcxx-ng=9.1.0
+  - ncurses=6.2
+  - openssl=1.1.1g
+  - pip=20.0.2=py36_3
+  - python=3.6.9
+  - readline=7.0
+  - setuptools=46.4.0
+  - sqlite=3.31.1
+  - tk=8.6.8
+  - wheel=0.34.2
+  - xz=5.2.5
+  - zlib=1.2.11
+  - r-essentials
+  - r-base
+  - pip:
+    - -r file:requirements.txt
+prefix: $HOME/.conda/envs/py_env
+
